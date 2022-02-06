@@ -1,0 +1,36 @@
+{
+  "name": "text-to-image-plugin",
+  "version": "1.0.0",
+  "description": "plugin for TextToImage",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TextToImage/text-to-image-plugin.git"
+  },
+  "files": ["lib/**/*"],
+  "keywords": [
+    "text",
+    "to",
+    "image",
+    "search"
+  ],
+  "author": "Amy Detwiler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TextToImage/text-to-image-plugin/issues"
+  },
+  "homepage": "https://github.com/TextToImage/text-to-image-plugin#readme",
+  "dependencies": {
+    "axios": "^0.25.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.5.5"
+  }
+}
